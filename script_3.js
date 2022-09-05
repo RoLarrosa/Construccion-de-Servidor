@@ -1,4 +1,4 @@
-const { obtenerPcias, obtenerDptos, obtenerLocalidades } = require("./libs/funciones-exportadas");
+import { obtenerPcias, obtenerDptos, obtenerLocalidades } from "./libs/funciones-exportadas.js"
 
 // Funcion para obtener todos los datos
 const consultarDatos = async () => {

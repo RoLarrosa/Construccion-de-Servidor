@@ -33,7 +33,7 @@ const obtenerLocalidades = async () =>{
         .catch((error) => error);
 }
 
-module.exports = {
+export {
     obtenerPcias,
     obtenerDptos,
     obtenerLocalidades
